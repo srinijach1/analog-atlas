@@ -2,7 +2,7 @@
 
 **NASA Space Apps Challenge 2026 · Challenge: Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars**
 
-🔗 **Live app:** 
+🔗 **Live app:** https://srinijach1.github.io/analog-atlas/
 
 ---
 
@@ -137,4 +137,4 @@ To try a new data file without rebuilding, use the app's **Load measured data** 
 - Python: pystac-client, planetary-computer, rasterio, xarray, numpy
 - Published literature behind each site description
 
-**AI assistance:** Claude (Anthropic) was used to help write the app's code and the data pipeline, to draft site descriptions, and to review the data. All data and sources are cited above.
+**AI assistance:** Claude (Anthropic) was used to help write the app's code and the data pipeline, to draft a few site descriptions, and to review the data. All data and sources are cited above.
