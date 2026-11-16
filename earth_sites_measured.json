@@ -1,0 +1,780 @@
+{
+  "generated": "2026-11-16T03:23:33+00:00",
+  "modis_year": 2023,
+  "pipeline": "earth_pipeline.py",
+  "sites": {
+    "lonar": {
+      "values": {
+        "L": 0.0,
+        "P": 94.56,
+        "R": 0.23,
+        "T": 27.7,
+        "dT": 16.0
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (5.8 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 579,
+        "mean_slope_deg": 5.8,
+        "lst_day_c": 35.7,
+        "lst_night_c": 19.7,
+        "lst_obs": {
+          "day": 75,
+          "night": 76,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 0.001,
+          "snow_ice": 0,
+          "vegetated": 0.678,
+          "classes": {
+            "tree": 0.241,
+            "shrub": 0.129,
+            "grass": 0.187,
+            "crop": 0.121,
+            "built": 0.07,
+            "bare": 0.001,
+            "water": 0.25
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "dallol": {
+      "values": {
+        "L": 0.0,
+        "P": 102.64,
+        "R": 0.11,
+        "T": 38.8,
+        "dT": 12.2
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (2.6 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": -109,
+        "mean_slope_deg": 2.6,
+        "lst_day_c": 44.9,
+        "lst_night_c": 32.7,
+        "lst_obs": {
+          "day": 90,
+          "night": 87,
+          "composites": 90
+        },
+        "worldcover": {
+          "bare": 1.0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "bare": 1.0
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "lut": {
+      "values": {
+        "L": 0.0,
+        "P": 97.32,
+        "R": 0.4,
+        "T": 33.6,
+        "dT": 28.4
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (10.1 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 339,
+        "mean_slope_deg": 10.1,
+        "lst_day_c": 47.8,
+        "lst_night_c": 19.4,
+        "lst_obs": {
+          "day": 90,
+          "night": 90,
+          "composites": 90
+        },
+        "worldcover": {
+          "bare": 1.0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "bare": 1.0,
+            "water": 0.0
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "qaidam": {
+      "values": {
+        "L": 0.0,
+        "P": 72.32,
+        "R": 0.09,
+        "T": 10.8,
+        "dT": 31.0
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (2.2 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 2755,
+        "mean_slope_deg": 2.2,
+        "lst_day_c": 26.3,
+        "lst_night_c": -4.6,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 1.0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "bare": 1.0
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "ojos": {
+      "values": {
+        "L": 0.0,
+        "P": 44.38,
+        "R": 0.94,
+        "T": -6.4,
+        "dT": 23.1
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (23.4 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 6443,
+        "mean_slope_deg": 23.4,
+        "lst_day_c": 5.1,
+        "lst_night_c": -18.0,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 0.347,
+          "snow_ice": 0.653,
+          "vegetated": 0.0,
+          "classes": {
+            "grass": 0.0,
+            "bare": 0.347,
+            "snow_ice": 0.653
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "haughton": {
+      "values": {
+        "L": 0.573,
+        "P": 99.51,
+        "R": 0.15,
+        "T": -19.2,
+        "dT": 3.5
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "Copernicus DEM GLO-30 (ESA) elevation -> standard atmosphere",
+        "R": "Copernicus DEM GLO-30 (ESA) mean slope (3.9 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 152,
+        "mean_slope_deg": 3.9,
+        "lst_day_c": -17.5,
+        "lst_night_c": -21.0,
+        "lst_obs": {
+          "day": 87,
+          "night": 88,
+          "composites": 88
+        },
+        "worldcover": {
+          "bare": 1.0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "bare": 0.902,
+            "moss_lichen": 0.098
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "dryvalleys": {
+      "values": {
+        "L": 0.644,
+        "P": 93.92,
+        "R": 0.9,
+        "T": -26.9,
+        "dT": 3.2
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "Copernicus DEM GLO-30 (ESA) elevation -> standard atmosphere",
+        "R": "Copernicus DEM GLO-30 (ESA) mean slope (22.6 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 636,
+        "mean_slope_deg": 22.6,
+        "lst_day_c": -25.2,
+        "lst_night_c": -28.5,
+        "lst_obs": {
+          "day": 89,
+          "night": 90,
+          "composites": 90
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate",
+        "WorldCover: no WorldCover tile"
+      ],
+      "warnings": []
+    },
+    "yungay": {
+      "values": {
+        "L": 0.0,
+        "P": 90.26,
+        "R": 0.16,
+        "T": 27.0,
+        "dT": 36.9
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (4.0 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 965,
+        "mean_slope_deg": 4.0,
+        "lst_day_c": 45.5,
+        "lst_night_c": 8.6,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 1.0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "bare": 1.0
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "lanzarote": {
+      "values": {
+        "L": 0.0,
+        "P": 101.31,
+        "R": 0.08,
+        "T": 22.8,
+        "dT": 13.2
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (2.1 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 1,
+        "mean_slope_deg": 2.1,
+        "lst_day_c": 29.4,
+        "lst_night_c": 16.2,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 0.147,
+          "snow_ice": 0,
+          "vegetated": 0.412,
+          "classes": {
+            "tree": 0.055,
+            "shrub": 0.143,
+            "grass": 0.202,
+            "built": 0.028,
+            "bare": 0.147,
+            "water": 0.414,
+            "wetland": 0.012
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": [
+        "41% of the sample box is sea, so temperature and slope partly reflect the coastline"
+      ]
+    },
+    "cotm": {
+      "values": {
+        "L": 0.0,
+        "P": 81.96,
+        "R": 0.2,
+        "T": 8.4,
+        "dT": 18.6
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (4.9 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 1753,
+        "mean_slope_deg": 4.9,
+        "lst_day_c": 17.7,
+        "lst_night_c": -0.9,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 0.575,
+          "snow_ice": 0,
+          "vegetated": 0.424,
+          "classes": {
+            "tree": 0.107,
+            "shrub": 0.04,
+            "grass": 0.277,
+            "bare": 0.575
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "riotinto": {
+      "values": {
+        "L": 0.0,
+        "P": 96.47,
+        "R": 0.44,
+        "T": 21.7,
+        "dT": 15.9
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (10.9 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 412,
+        "mean_slope_deg": 10.9,
+        "lst_day_c": 29.6,
+        "lst_night_c": 13.8,
+        "lst_obs": {
+          "day": 86,
+          "night": 88,
+          "composites": 88
+        },
+        "worldcover": {
+          "bare": 0.077,
+          "snow_ice": 0,
+          "vegetated": 0.914,
+          "classes": {
+            "tree": 0.215,
+            "shrub": 0.356,
+            "grass": 0.343,
+            "built": 0.006,
+            "bare": 0.077,
+            "water": 0.004
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "bockfjorden": {
+      "values": {
+        "L": 0.704,
+        "P": 100.09,
+        "R": 0.39,
+        "T": -9.8,
+        "dT": 2.1
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "Copernicus DEM GLO-30 (ESA) elevation -> standard atmosphere",
+        "R": "Copernicus DEM GLO-30 (ESA) mean slope (9.7 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 103,
+        "mean_slope_deg": 9.7,
+        "lst_day_c": -8.8,
+        "lst_night_c": -10.8,
+        "lst_obs": {
+          "day": 88,
+          "night": 86,
+          "composites": 88
+        },
+        "worldcover": {
+          "bare": 0.78,
+          "snow_ice": 0.125,
+          "vegetated": 0.082,
+          "classes": {
+            "grass": 0.077,
+            "bare": 0.524,
+            "snow_ice": 0.125,
+            "water": 0.013,
+            "wetland": 0.005,
+            "moss_lichen": 0.256
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "maunakea": {
+      "values": {
+        "L": 0.0,
+        "P": 61.72,
+        "R": 0.52,
+        "T": 13.8,
+        "dT": 31.3
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (12.9 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 3990,
+        "mean_slope_deg": 12.9,
+        "lst_day_c": 29.5,
+        "lst_night_c": -1.8,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 0.984,
+          "snow_ice": 0,
+          "vegetated": 0.009,
+          "classes": {
+            "grass": 0.009,
+            "built": 0.006,
+            "bare": 0.984,
+            "water": 0.001
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "axelheiberg": {
+      "values": {
+        "L": 0.704,
+        "P": 98.94,
+        "R": 0.52,
+        "T": -15.5,
+        "dT": 2.9
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "Copernicus DEM GLO-30 (ESA) elevation -> standard atmosphere",
+        "R": "Copernicus DEM GLO-30 (ESA) mean slope (13.0 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 200,
+        "mean_slope_deg": 13.0,
+        "lst_day_c": -14.0,
+        "lst_night_c": -17.0,
+        "lst_obs": {
+          "day": 90,
+          "night": 90,
+          "composites": 90
+        },
+        "worldcover": {
+          "bare": 0.929,
+          "snow_ice": 0.004,
+          "vegetated": 0.044,
+          "classes": {
+            "grass": 0.044,
+            "bare": 0.258,
+            "snow_ice": 0.004,
+            "water": 0.023,
+            "moss_lichen": 0.671
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "ngari": {
+      "values": {
+        "L": 0.0,
+        "P": 59.4,
+        "R": 0.12,
+        "T": 11.0,
+        "dT": 27.5
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (3.1 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 4283,
+        "mean_slope_deg": 3.1,
+        "lst_day_c": 24.8,
+        "lst_night_c": -2.7,
+        "lst_obs": {
+          "day": 90,
+          "night": 90,
+          "composites": 90
+        },
+        "worldcover": {
+          "bare": 0.406,
+          "snow_ice": 0.0,
+          "vegetated": 0.092,
+          "classes": {
+            "grass": 0.092,
+            "built": 0.414,
+            "bare": 0.406,
+            "snow_ice": 0.0,
+            "water": 0.088,
+            "moss_lichen": 0.0
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": [
+        "The sample box is centred on Shiquanhe town (41% built-up); a point on a salt-lake shore would be cleaner"
+      ]
+    },
+    "kamil": {
+      "values": {
+        "L": 0.0,
+        "P": 94.39,
+        "R": 0.19,
+        "T": 30.2,
+        "dT": 21.4
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (4.8 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 594,
+        "mean_slope_deg": 4.8,
+        "lst_day_c": 40.9,
+        "lst_night_c": 19.5,
+        "lst_obs": {
+          "day": 88,
+          "night": 88,
+          "composites": 88
+        },
+        "worldcover": {
+          "bare": 1.0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "bare": 1.0
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "salda": {
+      "values": {
+        "L": 0.0,
+        "P": 88.38
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere"
+      },
+      "extra": {
+        "elevation_m": 1138,
+        "worldcover": {
+          "bare": 0,
+          "snow_ice": 0,
+          "vegetated": 0,
+          "classes": {
+            "water": 1.0
+          }
+        }
+      },
+      "errors": [
+        "Temperature, day\u2013night swing and roughness excluded: the 3 km sample box is 100% lake water (ESA WorldCover), so MODIS measured the lake, not the shoreline",
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "hanksville": {
+      "values": {
+        "L": 0.0,
+        "P": 85.77,
+        "R": 0.16,
+        "T": 18.5,
+        "dT": 27.6
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (4.1 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 1384,
+        "mean_slope_deg": 4.1,
+        "lst_day_c": 32.3,
+        "lst_night_c": 4.7,
+        "lst_obs": {
+          "day": 89,
+          "night": 89,
+          "composites": 89
+        },
+        "worldcover": {
+          "bare": 0.993,
+          "snow_ice": 0,
+          "vegetated": 0.007,
+          "classes": {
+            "shrub": 0.001,
+            "grass": 0.006,
+            "built": 0.0,
+            "bare": 0.993
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    },
+    "pinacate": {
+      "values": {
+        "L": 0.0,
+        "P": 90.57,
+        "R": 0.56,
+        "T": 27.2,
+        "dT": 22.5
+      },
+      "sources": {
+        "L": "Computed from latitude (fraction of year in polar day or polar night)",
+        "P": "NASADEM (NASA) elevation -> standard atmosphere",
+        "R": "NASADEM (NASA) mean slope (14.0 deg) / 25 deg",
+        "T": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean",
+        "dT": "MODIS LST 8-day v6.1 (Terra+Aqua), 2023, ~3 km mean"
+      },
+      "extra": {
+        "elevation_m": 936,
+        "mean_slope_deg": 14.0,
+        "lst_day_c": 38.5,
+        "lst_night_c": 15.9,
+        "lst_obs": {
+          "day": 88,
+          "night": 88,
+          "composites": 88
+        },
+        "worldcover": {
+          "bare": 0.177,
+          "snow_ice": 0,
+          "vegetated": 0.823,
+          "classes": {
+            "tree": 0.0,
+            "shrub": 0.519,
+            "grass": 0.304,
+            "bare": 0.177
+          }
+        }
+      },
+      "errors": [
+        "Precipitation (TerraClimate): Planetary Computer metadata changed, so rainfall is still an estimate"
+      ],
+      "warnings": []
+    }
+  },
+  "quality_review": "Reviewed 2026-11-15: Salda T/dT/R excluded (lake); Lanzarote and Ngari flagged"
+}
